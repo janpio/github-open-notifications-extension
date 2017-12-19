@@ -116,7 +116,7 @@ var readyStateCheckInterval = setInterval(function () {
       // All unread
       d3.select('.notification-center .tabnav #extBtGr')
       .insert('a')
-      .text('all unread')
+      .text('unread')
       .attr('class','btn btn-sm BtnGroup-item')
       .attr('rel','foobar')
       .on("click", function() {
