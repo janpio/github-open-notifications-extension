@@ -1,19 +1,27 @@
 # GitHub Open Notifications Extension
 
-This extension adds several `Open all: ...` buttons in GitHub's notifications view which, when clicked, will open the related notifications in a new tabs and mark them as read.
+This extension adds several `Open all: ...` buttons in GitHub's notifications view which, when clicked, will open the related notifications in a new tabs and mark them as read:
+
+* Open all Issues
+* Open all PRs
+* Open all Releases
+* Open all closed
+* Open all merged
+* Open all unread
 
 ![example](assets/screenshot.png)
 
 ## Installation
 
-Simply install the extension directly from the add-on stores:
+Simply install the extension from your browser's add-on store:
 
 * https://chrome.google.com/webstore/detail/github-open-notifications/fabhghicmpbhanedaojnjegkfmhnfcpm
 * https://addons.mozilla.org/en-US/firefox/addon/github-open-notifications/
 
 ## Known limitation
 
-The buttons only appears on page load. If a user clicks the notification button on the left hand side of the screen that will (re)load the notification views using PJAX, and as such the page load event won't trigger adding the button back again. Simply refresh the page. (The original developer of the extension this is based on hopes to make the button appear based on the rendering events and not the page load event. I hope so as well and will investigate this myself.)
+The buttons only appears on page load.  
+If a user clicks the notification button on the left hand side of the screen that will (re)load the notification views using PJAX, and as such the page load event won't trigger adding the button back again. Simply refresh the page. (The original developer of the extension this is based on hopes to make the button appear based on the rendering events and not the page load event. I hope so as well and will investigate this myself.)
 
 ## Contributing
 
