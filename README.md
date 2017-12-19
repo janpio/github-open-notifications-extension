@@ -1,16 +1,16 @@
-# GitHub Open All Notifications
+# GitHub Open Notifications Extension
 
-This chrome extension adds an `Open All` button in GitHub's notifications view which when pressed will open all unread notifications in a new Chrome tab and mark them as read.
+This extension adds several `Open ...` buttons in GitHub's notifications view which, when clicked, will open the related notifications in a new tabs and mark them as read.
 
 ![example](assets/screenshot.png)
 
 ## Installation
 
-Simply install the extension directly from the Chrome Store: https://chrome.google.com/webstore/detail/github-open-all-notificat/edokpcnamcnjbigjpdhgmpaedbmcaijd
+Simply install the extension directly from the Chrome Store: TBD
 
 ## Known limitation
 
-The button only appears on page load. If a user clicks the notification button on the left hand side of the screen that will (re)load the notification views using PJAX, and as such the page load event won't trigger adding the button back again. I usually simply refresh the page. I hope to make the button appear based on the rendering events and not the page load event.
+The buttons only appears on page load. If a user clicks the notification button on the left hand side of the screen that will (re)load the notification views using PJAX, and as such the page load event won't trigger adding the button back again. Simply refresh the page. (The original developer of the extension this is based on hopes to make the button appear based on the rendering events and not the page load event.)
 
 ## Contributing
 
