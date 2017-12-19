@@ -1,8 +1,10 @@
+console.log("scripts/inject.js");
+
 var readyStateCheckInterval = setInterval(function () {
   if (document.readyState === "complete") {
     clearInterval(readyStateCheckInterval);
 
-    console.log("Hello. This message was sent from scripts/inject.js");
+    console.log("scripts/inject.js: document.readyState === complete");
 
     // Add new button group
     d3.select('.notification-center .tabnav')
