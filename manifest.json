@@ -1,6 +1,6 @@
 {
   "name": "GitHub Open Notifications",
-  "version": "1.0",
+  "version": "1.1",
   "manifest_version": 2,
   "description": "Extension that provides buttons on the GitHub notifications page to open them (all|all PRs|all closed|all with user...) in new tabs",
   "homepage_url": "https://github.com/janpio/github-open-notifications-extension",
