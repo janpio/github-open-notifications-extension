@@ -11,6 +11,8 @@ This extension adds several `Open all: ...` buttons in GitHub's notifications vi
 
 ![example](assets/screenshot.png)
 
+This extension is based on [GitHub Open All Notifications](https://github.com/bitoiu/github-open-all-notifications). I forked its code and extended it. Thanks [@bitoiu](https://github.com/bitoiu)!
+
 ## Installation
 
 Simply install the extension from your browser's add-on store:
